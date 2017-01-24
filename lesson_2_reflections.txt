@@ -5,3 +5,9 @@ What happens when you initialize a repository? Why do you need to do it?
 	You have to make your first commit. Git doesn't do that for you because: 
 		1) Maybe you don't want to commit all of your files.
 		2) You won't be able to write a message with a description of the commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Working directory is the place where you store the files in your hard drive.
+	Staging area it's an intermediate area between working directory and repository where you can put files before make a commit.
+	Repository contains an snapshot of your files after you make a commit.
