@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository a ".git" folder is created to keep history of the changes in the repository.
+	You can use "git status" to check that the repository it's created. 
+	You have to make your first commit. Git doesn't do that for you because: 
+		1) Maybe you don't want to commit all of your files.
+		2) You won't be able to write a message with a description of the commit.
