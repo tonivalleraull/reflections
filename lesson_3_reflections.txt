@@ -16,3 +16,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 	Because if you are going to be offline for a while you'll be able to compare your local with the remote in case you there are 
 	conflictive changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Share my files with other users and trying to explain what changes I've made so other users can try to help me. But looks like it
+	would be harder to find a system more efficient than GitHUB. 
