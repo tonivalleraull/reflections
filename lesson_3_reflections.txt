@@ -11,3 +11,8 @@ Describe the differences between forks, clones, and branches. When would you use
 	Clone means copy a repository from remote (GitHUB) to local or local to local.
 	Forking means cloning a repository from GitHUB to GitHUB.
 	Branch means to create a new line of commits when you want to develope a new feature or test something without breaking master code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Because if you are going to be offline for a while you'll be able to compare your local with the remote in case you there are 
+	conflictive changes.
