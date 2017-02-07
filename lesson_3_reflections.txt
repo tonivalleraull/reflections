@@ -14,10 +14,18 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-	Because if you are going to be offline for a while you'll be able to compare your local with the remote in case you there are 
-	conflictive changes.
+	Making a fetch, you can make a copy of the remote branch leaving your local branch alone. So you can run git log or git diff to see
+	what changes has been made. This way if you are going to be offline for a while you'll be able to update your local copy of the remote 
+	branch before you leave and you'll have access to any changes made on the remote since the last time you sync up.
+
+	git pull origin = 1) git fetch origin 2) git merge master origin/master.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	Share my files with other users and trying to explain what changes I've made so other users can try to help me. But looks like it
-	would be harder to find a system more efficient than GitHUB. 
+	would be harder to find a system more efficient than GitHUB.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	It's recommended to make changes in a separate branch when you want to develope a new feature but you want to keep your 
+	master code (probably in production) to be completly functional while you are trying or experimenting.
